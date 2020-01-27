@@ -1,0 +1,131 @@
+body {
+  background: #ffffff;
+  color: #000000;
+}
+
+.navbar {
+  border-bottom: rgb(234,231,202) 2px solid;
+  opacity: .9;
+}
+
+#home-section {
+  background: url("../../assets/img/Strawberries%20And%20Berries%20Bowl%20Against%20White%20Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+@media (min-width: 300px) {
+  #home-section {
+    background: url("../../assets/img/Strawberries%20And%20Berries%20Bowl%20Against%20White%20Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 900px;
+  }
+}
+
+@media (min-width: 576px) {
+  #home-section {
+    /*background: url("../../assets/img/Strawberries%20And%20Berries%20Bowl%20Against%20White%20Background.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+  }
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 600px;
+  /*background-color: rgba(255,255,255,0.49);*/
+}
+
+#home-section .home-inner {
+  padding-top: 100px;
+}
+
+#home-section .card form {
+  opacity: 0.8;
+}
+
+#home-section .card-body {
+  background: #ffffff;
+  box-shadow: -6px -6px 20px rgba(255,255,255,.1), 6px 6px 20px rgba(0,0,0,.1);
+  overflow: hidden;
+  box-shadow: 0 0 5px #f3fafa,0 0 25px #f3fafa,0 0 50px #f3fafa,0 0 150px #ffffff;
+}
+
+#home-section .card-body:hover {
+  /*color: rgb(255,255,255);*/
+  background: white;
+  box-shadow: 0 0 1px #f3fafa,0 0 25px #f3fafa,0 0 50px #f3fafa,0 0 100px #f3fafa;
+  box-shadow: inset -6px -6px 200px rgba(255,255,255,0.5), inset 6px 6px 500px rgba(0,0,0,0.05);
+  /*#home-section .card-body {  background: #ffffff;*/
+  box-shadow: -6px -6px 20px rgba(255,255,255,.1), 6px 6px 20px rgba(0,0,0,.1);
+  overflow: hidden;
+  box-shadow: 0 0 5px #f3fafa,0 0 25px #f3fafa,0 0 50px #f3fafa,0 0 150px #ffffff;
+}
+
+#home-section .fa {
+  color: green;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#home-section .card-body {
+  margin-bottom: 1rem;
+}
+
+carousel-item container:hover .image {
+  background: rgb(255,0,0);
+  box-shadow: 0 0 1px #f3fafa,0 0 25px #f3fafa,0 0 50px #f3fafa,0 0 500px #f3fafa;
+  box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.05);
+}
+
+#pain-points {
+  background-color: rgb(234,231,202);
+}
+
+.carousel-control-next-icon {
+  opacity: 0;
+}
+
+.carousel-control-prev-icon {
+  opacity: 0;
+}
+
+.card.text-center.card-form {
+  border-bottom: rgb(234,231,202) 7px solid;
+}
+
+.card-group > .card:not(:last-child) {
+}
+
+.card-body {
+  box-shadow: -6px -6px 15px rgba(255,255,255,1),-6px -6px 20px rgba(255,255,255,.5),inset 6px 6px 10px rgba(255,255,255,.1), 6px 6px 15px rgba(0,0,0,.15);
+  background: #ffffff;
+}
+
+.card-body:hover {
+  box-shadow: inset -6px -6px 15px rgba(255,255,255,1),inset -6px -6px 20px rgba(255,255,255,.5),inset 6px 6px 10px rgba(255,255,255,.1),inset 6px 6px 15px rgba(0,0,0,.15);
+}
+
+.card-img-top.w-100.d-block {
+  box-shadow: -6px -6px 15px rgba(255,255,255,1),-6px -6px 20px rgba(255,255,255,.5),inset 6px 6px 10px rgba(255,255,255,.1), 6px 6px 15px rgba(0,0,0,.15);
+  /*box-shadow: 0 0 5px #ffffff,0 0 25px #f3fafa,0 0 50px #f3fafa,0 0 100px #ffffff;*/
+}
+
+.card-img-top.w-100.d-block:hover {
+  box-shadow: inset -6px -6px 15px rgb(183,38,38),inset -6px -6px 20px rgba(169,45,45,0.5),inset 6px 6px 10px rgba(166,25,25,0.1),inset 6px 6px 15px rgba(190,23,23,0.15);
+}
+
+.card-columns .card {
+  border: double rgb(234,231,202);
+}
+

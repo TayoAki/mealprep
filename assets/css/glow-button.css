@@ -1,0 +1,43 @@
+* {
+  /*margin: 0;*/
+  /*padding: 0;*/
+  /*box-sizing: border-box;*/
+}
+
+#join {
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  background: rgba(159,145,17,0.22);
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+}
+
+#join:hover {
+  background: rgba(223,205,29,0.71);
+  color: rgb(255,255,255);
+  box-shadow: 0 0 5px #f3fafa,0 0 25px #f3fafa,0 0 50px #f3fafa,0 0 150px #eae7ca;
+}
+
+z {
+}
+
+#join {
+}
+
+#main-footer {
+  background-color: rgb(234,231,202);
+}
+
+.card-body {
+}
+
+.card-columns.p-5 {
+  /*background-color: rgb(226,226,226);*/
+}
+
